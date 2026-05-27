@@ -1,0 +1,14 @@
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\bin\Debug\net10.0\jeu-combat.exe
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\bin\Debug\net10.0\jeu-combat.deps.json
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\bin\Debug\net10.0\jeu-combat.runtimeconfig.json
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\bin\Debug\net10.0\jeu-combat.dll
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\bin\Debug\net10.0\jeu-combat.pdb
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.AssemblyInfoInputs.cache
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.AssemblyInfo.cs
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.csproj.CoreCompileInputs.cache
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.dll
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\refint\jeu-combat.dll
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.pdb
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\jeu-combat.genruntimeconfig.cache
+C:\Users\dhsca\OneDrive\Documents\MES DOCUMENTS\COURS _FORMATIONS\SUP_DE_VINCI\M2\ACCOMPAGNEMENT\jeu-combat\obj\Debug\net10.0\ref\jeu-combat.dll

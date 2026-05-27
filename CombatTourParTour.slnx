@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CombatTourParTour.Application/CombatTourParTour.Application.csproj" />
+    <Project Path="src/CombatTourParTour.Cli/CombatTourParTour.Cli.csproj" />
+    <Project Path="src/CombatTourParTour.Domain/CombatTourParTour.Domain.csproj" />
+    <Project Path="src/CombatTourParTour.Infrastructure/CombatTourParTour.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CombatTourParTour.Tests/CombatTourParTour.Tests.csproj" />
+  </Folder>
+</Solution>
