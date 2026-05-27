@@ -12,13 +12,13 @@ Projet réalisé dans le cadre du TP de Clean Code et Design Patterns.
 
 Le projet respecte les principes de la Clean Architecture.
 
-| Pattern  | Classe(s) / interface(s) | Rôle dans le jeu |
-| -------- | ------------------------ | ---------------- |
-| Strategy | À déterminer             | En attente...    |
-| State    | À déterminer             | En attente...    |
-| Factory  | À déterminer             | En attente...    |
-| Command  | À déterminer             | En attente...    |
-| Observer | À déterminer             | En attente...    |
+| Pattern  | Classe(s) / interface(s)       | Rôle dans le jeu                                                                              |
+| -------- | ------------------------------ | --------------------------------------------------------------------------------------------- |
+| Strategy | À déterminer                   | En attente...                                                                                 |
+| State    | À déterminer                   | En attente...                                                                                 |
+| Factory  | IHeroFactory et IEnnemiFactory | isolent la logique de création et les statistiques des personnages du reste de l'application. |
+| Command  | À déterminer                   | En attente...                                                                                 |
+| Observer | À déterminer                   | En attente...                                                                                 |
 
 ## Comment lancer le projet
 
