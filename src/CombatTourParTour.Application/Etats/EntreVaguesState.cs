@@ -17,14 +17,14 @@ namespace CombatTourParTour.Application.Etats
         {
             double calculSoin = contexte.Heros.PointsDeVieMax * 0.20;
             int montantSoin = (int)Math.Ceiling(calculSoin);
-            
+
             contexte.Heros.SeSoigner(montantSoin);
 
             contexte.VagueActuelle++;
             contexte.NumeroTour = 1;
 
             contexte.Ennemis.Clear();
-            
+
             if (contexte.VagueActuelle == 2)
             {
                 contexte.Ennemis.Add(_ennemiFactory.CreerEnnemi(TypeEnnemi.GobelinFaible));
@@ -43,8 +43,7 @@ namespace CombatTourParTour.Application.Etats
 
         public ICombatState DéterminerEtatSuivant(CombatContext contexte)
         {
-            // Après la transition, on redonne immédiatement la main au joueur
-            return new TourJoueurState();
+            return new TourJoueurState(null, null);
         }
     }
 }
