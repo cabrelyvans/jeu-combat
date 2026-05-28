@@ -11,10 +11,14 @@ namespace CombatTourParTour.Application.Combat
     {
         private readonly ICombatUiService _uiService;
         private readonly IEnnemiFactory _ennemiFactory;
-        private ICombatState _etatCourant;
+        private ICombatState? _etatCourant;
         private readonly List<ICommand> _commandesJoueur;
 
-        public CombatEngine(ICombatUiService uiService, IEnnemiFactory ennemiFactory, List<ICommand> commandesJoueur)
+        public CombatEngine(
+            ICombatUiService uiService,
+            IEnnemiFactory ennemiFactory,
+            List<ICommand> commandesJoueur
+        )
         {
             _uiService = uiService;
             _ennemiFactory = ennemiFactory;

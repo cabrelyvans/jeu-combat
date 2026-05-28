@@ -9,13 +9,10 @@ namespace CombatTourParTour.Application.Etats
             // Fin du jeu globale célébrée
         }
 
-        public void Executer(CombatContext contexte)
-        {
-        }
+        public void Executer(CombatContext contexte) { }
 
-        public ICombatState DéterminerEtatSuivant(CombatContext contexte)
+        public ICombatState? DéterminerEtatSuivant(CombatContext contexte)
         {
-            // État terminal également
             return null;
         }
     }

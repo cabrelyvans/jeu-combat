@@ -6,8 +6,7 @@ namespace CombatTourParTour.Application.Etats
     {
         public void Entrer(CombatContext contexte)
         {
-            // Cet état n'affiche rien directement sur la console (respect du SRP)
-            // Il sert juste à marquer la fin du jeu en mode défaite
+            // Fin du jeu globale célébrée
         }
 
         public void Executer(CombatContext contexte)
@@ -15,10 +14,9 @@ namespace CombatTourParTour.Application.Etats
             // Pas d'action particulière à exécuter, le combat s'arrête
         }
 
-        public ICombatState DéterminerEtatSuivant(CombatContext contexte)
+        public ICombatState? DéterminerEtatSuivant(CombatContext contexte)
         {
-            // C'est un état terminal, il n'y a pas d'état après la défaite
-            return null; 
+            return null;
         }
     }
 }

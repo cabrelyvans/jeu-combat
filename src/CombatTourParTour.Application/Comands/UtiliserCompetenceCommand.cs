@@ -7,7 +7,7 @@ namespace CombatTourParTour.Application.Commands
     public class UtiliserCompetenceCommand : ICommand
     {
         private readonly ICombatAction _competenceAction;
-        private Ennemi _cible;
+        private Ennemi? _cible;
 
         public string Description => _competenceAction.Nom;
 
@@ -30,7 +30,9 @@ namespace CombatTourParTour.Application.Commands
         {
             if (_cible == null || !_cible.EstVivant)
             {
-                throw new InvalidOperationException("Une cible vivante est requise pour cette compétence.");
+                throw new InvalidOperationException(
+                    "Une cible vivante est requise pour cette compétence."
+                );
             }
 
             return _competenceAction.Executer(contexte, _cible);

@@ -7,7 +7,7 @@ namespace CombatTourParTour.Application.Commands
     public class AttaquerCommand : ICommand
     {
         private readonly ICombatAction _attaqueAction;
-        private Ennemi _cible;
+        private Ennemi? _cible;
 
         public string Description => "Attaque de base";
 
@@ -30,7 +30,9 @@ namespace CombatTourParTour.Application.Commands
         {
             if (_cible == null || !_cible.EstVivant)
             {
-                throw new InvalidOperationException("Impossible d'attaquer : aucune cible valide n'a été sélectionnée.");
+                throw new InvalidOperationException(
+                    "Impossible d'attaquer : aucune cible valide n'a été sélectionnée."
+                );
             }
 
             return _attaqueAction.Executer(contexte, _cible);
